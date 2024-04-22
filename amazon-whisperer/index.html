@@ -1,1 +1,120 @@
-<!-- Please generate a portfolio website for an entry level software developer who is experienced in Python. Please provide the source code for the styling, JavaScript, and HTML in a single file. -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>John Doe - Portfolio</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+
+Insert at cursor
+
+Copy
+header {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  color: white; 
+}
+
+nav {
+  background-color: #eee; 
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav a:hover {
+  background-color: #ddd;
+}
+
+section {
+  width: 75%;
+  float: left;
+  padding: 20px;
+}
+
+aside {
+  width: 25%;
+  float: left;
+  padding: 20px;
+  background-color: #eee;
+}
+
+footer {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 800px) {
+  section, aside {
+    width: 100%;
+    float: none;
+  }
+}
+</style>
+
+<script>
+function openNav() {
+document.getElementById("myNav").style.width = "100%";
+}
+
+
+Insert at cursor
+
+Copy
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+
+</head>
+<body>
+
+<header>
+<h1>John Doe</h1>
+<p>Junior Software Developer</p>
+</header>
+
+<nav id="myNav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<a href="#">About</a>
+<a href="#">Skills</a>
+<a href="#">Projects</a>
+<a href="#">Contact</a>
+</nav>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
+<section>
+<h2>About Me</h2>
+<p>Bio and introduction...</p>
+</section>
+
+<aside>
+<h3>Skills</h3>
+<ul>
+<li>Python</li>
+<li>JavaScript</li>
+<li>HTML/CSS</li>
+</ul>
+</aside>
+
+<footer>
+&copy; 2023 John Doe
+</footer>
+
+</body>
+</html>
