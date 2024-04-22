@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        /* CSS Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #777;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: #555;
+        }
+    </style>
+    <script>
+        // JavaScript Code
+        function greet() {
+            let name = prompt("Please enter your name:");
+            if (name) {
+                alert("Hello, " + name + "! Welcome to my portfolio.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>John Doe</h1>
+        <p>Software Developer | Python Enthusiast</p>
+        <p>I am a passionate software developer with experience in Python programming. I enjoy building web applications and solving complex problems.</p>
+        <p>Check out my projects and feel free to get in touch!</p>
+        <a href="#" class="btn" onclick="greet()">Say Hello</a>
+    </div>
+</body>
+</html>
