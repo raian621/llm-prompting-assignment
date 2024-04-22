@@ -9,30 +9,107 @@
             display: flex;
             flex-direction: column;
             list-style-type: none;
-            width: 100vdw;
-            height: 100vdh;
+            width: 100vw;
+            height: 100vh;
             align-items: center;
+            justify-content: center;
             text-align: center;
             margin: 0;
-            padding: 20px;
             font-family: 'Comic Sans MS';
-            font-size: 2em;
+            font-size: 1.5em;
         }
+
+        table {
+            text-align: left;
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 5px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #ddd;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #eee;
+        }
+
+        tr:nth-child(1) {
+            background-color: #bbb;
+        }
+
     </style>
 </head>
 <body>
     <h1>LLM Generated Websites</h1>
-    <a href="chatgpt">ChatGPT</a>
-    <a href="ask-codi">Ask Codi</a>
-    <a href="you">You</a>
-    <a href="gemini">Google Gemini</a>
-    <a href="github-copilot">GitHub Copilot</a>
-    <a href="amazon-whisperer">Amazon Whisperer</a>
-    <a href="microsoft-copilot">Microsoft Copilot</a>
-    <a href="tabnine">Tabnine</a>
-    <a href="codeium">Codeium</a>
-    <a href="phind">Phind</a>
-    <a href="blackbox">blackbox</a>
-    <a href="double">double</a>
+    <table>
+        <tr>
+            <th>Service</th>
+            <th>Initial</th>
+            <th>Fixed</th>
+        </tr>
+        <tr>
+            <td><b>ChatGPT</b></td>
+            <td><a href="/chatgpt/index.html">/chatgpt/index.html</a></td>
+            <td><a href="/chatgpt/fixed.html">/chatgpt/fixed.html</a></td>
+        </tr>
+        <tr>
+            <td><b>Ask Codi</b></td>
+            <td><a href="/ask-codi/index.html">/ask-codi/index.html</a></td>
+            <td><a href="/ask-codi/fixed.html">/ask-codi/fixed.html</a></td>
+        </tr>
+        <tr>
+            <td><b>You</b></td>
+            <td><a href="/you/index.html">/you/index.html</a></td>
+            <td><a href="/you/fixed.html">/you/fixed.html</a></td>
+        </tr>
+        <tr>
+            <td><b>Gemini</b></td>
+            <td><a href="/gemini/index.html">/gemini/index.html</a></td>
+            <td><a href="/gemini/fixed.html">/gemini/fixed.html</a></td>
+        </tr>
+        <tr>
+            <td><b>GitHub Copilot</b></td>
+            <td><a href="/github-copilot/index.html">/github-copilot/index.html</a></td>
+            <td><a href="/github-copilot/fixed.html">/github-copilot/fixed.html</a></td>
+        </tr>
+        <tr>
+            <td><b>Amazon Whisperer</b></td>
+            <td><a href="/amazon-whisperer/index.html">/amazon-whisperer/index.html</a></td>
+            <td><a href="/amazon-whisperer/fixed.html">/amazon-whisperer/fixed.html</a></td>
+        </tr>
+        <tr>
+            <td><b>Microsoft Copilot</b></td>
+            <td><a href="/microsoft-copilot/index.html">/microsoft-copilot/index.html</a></td>
+            <td><a href="/microsoft-copilot/fixed.html">/microsoft-copilot/fixed.html</a></td>
+        </tr>
+        <tr>
+            <td><b>Tabnine</b></td>
+            <td><a href="/tabnine/index.html">/tabine/index.html</a></td>
+            <td><a href="/tabnine/fixed.html">/tabine/fixed.html</a></td>
+        </tr>
+        <tr>
+            <td><b>Codeium</b></td>
+            <td><a href="/codeium/index.html">/codeium/index.html</a></td>
+            <td><a href="/codeium/fixed.html">/codeium/fixed.html</a></td>
+        </tr>
+        <tr>
+            <td><b>Phind</b></td>
+            <td><a href="/phind/index.html">/phind/index.html</a></td>
+            <td><a href="/phind/fixed.html">/phind/fixed.html</a></td>
+        </tr>
+        <tr>
+            <td><b>Blackbox</b></td>
+            <td><a href="/blackbox/index.html">/blackbox/index.html</a></td>
+            <td><a href="/blackbox/fixed.html">/blackbox/fixed.html</a></td>
+        </tr>
+        <tr>
+            <td><b>Double</b></td>
+            <td><a href="/double/index.html">/double/index.html</a></td>
+            <td><a href="/double/fixed.html">/double/fixed.html</a></td>
+        </tr>
+    </table>
 </body>
 </html>
